@@ -10,16 +10,6 @@ module.exports = merge(common, {
   devServer: {
     contentBase: path.resolve(__dirname, './dist/'),
     open: true
-    // poll: true,
-    // watchContentBase: true,
-    // liveReload: true,
-    // historyApiFallback: true,
-    // open: true,
-    // compress: true,
-    // hot: false,
-    // port: 8080,
-    // watchContentBase: true,
-    // liveReload: true
   },
   plugins: [
     new CleanWebpackPlugin(),
