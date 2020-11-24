@@ -43,7 +43,6 @@
     "webpack-merge": "^5.4.0"
   },
   "dependencies": {
-    "reef-router": "^1.0.2",
     "reefjs": "^7.6.1"
   }
 }
