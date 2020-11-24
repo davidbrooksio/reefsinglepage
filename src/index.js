@@ -1,25 +1,7 @@
-// 'use strict';
+'use strict';
 
-import Reef from 'https://cdn.skypack.dev/reefjs@7.6.1';
-import 'https://cdn.skypack.dev/reefjs/router';
-
-// import 'reef-router';
-
-// Style
-import 'normalize.css';
-import './styles/main.css';
-
-// Polyfills
-// import 'core-js/stable';
-// import 'regenerator-runtime/runtime';
-// import 'airbnb-browser-shims';
-// import '@webcomponents/custom-elements';
-// import 'lib/polyfills/customevent';
-// import 'element-remove-polyfill';
-// import 'details-element-polyfill';
-
-// Library Imports
-// import './js/app/app';
+import Reef from 'reefjs';
+import 'reefjs/router';
 
 var router = new Reef.Router({
   routes: [
