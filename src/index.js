@@ -1,9 +1,11 @@
 'use strict';
 
 import Reef from 'reefjs';
-import 'reefjs/router';
+import ReefRouter from 'reefjs/router';
 
-var router = new Reef.Router({
+Reef.use(ReefRouter);
+
+var router = new ReefRouter({
   routes: [
     {
       id: 'home',
